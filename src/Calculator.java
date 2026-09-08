@@ -54,7 +54,7 @@ public class Calculator {
                 ++vowelCount;
             }
         }
-
+        // "admin" cannot be null, so calling equals() on it is safe even if role is null.
         System.out.println("Number of vowels: " + vowelCount);
         String role = "admin";
         if ("admin".equals(role)) {
